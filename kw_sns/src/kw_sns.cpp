@@ -698,7 +698,7 @@ bool kw_sns::run_cmd_frndlist(string cmdline)
             }
             else
             {
-                cout << "**error - internal error\n";
+                cout << "탈퇴한 회원 : " << fno << endl;
             }
         }
         
